@@ -41,7 +41,7 @@ def username_loop_function():
     i = 1
     while loop == True:
         strelem = '/html/body/div[2]/div/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/div[1]/div/div['+ str(i) +']/div[2]/div[1]/div/div/div/a/span/div'
-        time.sleep(0.5)
+        time.sleep(0.3)
         try:
             elem = driver.find_element(By.XPATH, strelem)
             if elem != None:
